@@ -7,7 +7,6 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "setup": "node setup.js",
     "astro": "astro"
   },
   "dependencies": {
