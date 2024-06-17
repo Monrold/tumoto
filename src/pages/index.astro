@@ -54,7 +54,7 @@ const posts = entries.items.map((item) => {
 							<div class="">
 								<img
 									class="bg-zinc-800 mb-4"
-									src={post.imagenes[0].fields.file.url}
+									src={post.imagenes?.[0]?.fields?.file?.url}
 									alt={post.nombre}
 								/>
 								<div class="px-2">
